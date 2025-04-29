@@ -14,7 +14,7 @@ set $wm_setting_key_down             j
 set $wm_setting_key_up               k
 set $wm_setting_key_right            l
 
-set $wm_setting_app_terminal         xfce4-terminal
+set $wm_setting_app_terminal         urxvt
 set $wm_setting_app_browser          firefox
 set $wm_setting_app_launcher         rofi -show drun
 set $wm_setting_app_compositor       picom
@@ -28,7 +28,7 @@ set $wm_color_background             #353535
 
 set $bar_setting_position            bottom
 set $bar_setting_mode                dock
-set $bar_setting_font                pango:BlexMono Nerd Font Propo, FontAwesome 11 
+set $bar_setting_font                pango:CommitMono Nerd Font Propo, FontAwesome 11 
 set $bar_setting_separator           " - "
 set $bar_setting_statusCommand       i3status
 set $bar_setting_trayoutput          full
@@ -66,16 +66,16 @@ bindsym $mod+F2 exec $wm_setting_app_filemanager
 ### Workspaces ###
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1  "    一    "
-set $ws2  "    二    "
-set $ws3  "    三    "
-set $ws4  "    四    "
-set $ws5  "    五    "
-set $ws6  "    六    "
-set $ws7  "    七    "
-set $ws8  "    八    "
-set $ws9  "    九    "
-set $ws10 "    十    "
+set $ws1  "    1    "
+set $ws2  "    2    "
+set $ws3  "    3    "
+set $ws4  "    4    "
+set $ws5  "    5    "
+set $ws6  "    6    "
+set $ws7  "    7    "
+set $ws8  "    8    "
+set $ws9  "    9    "
+set $ws10 "    10    "
 
 # Switch to workspace n
 bindsym $mod+1 workspace $ws1
